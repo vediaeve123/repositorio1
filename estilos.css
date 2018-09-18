@@ -1,0 +1,68 @@
+body{
+	background-color:yellow;
+}
+header{
+margin-left:950px;
+width: 400px;
+height: 110px;
+background-color: red;
+}
+.contenedor{
+	width: 100px;
+	height: 110px;
+	float: left;
+	transition:height.5s;
+	text-align: center;
+}
+.contenedor>a:hover{
+	color: black;
+	font-size:20px;
+	padding-bottom: 20px;
+	text-shadow: 2px 2px 2px yellow;
+}
+.contenedor>a{
+	text-decoration: none;
+}
+div#uno{
+	background-color:#FFF8DC ;
+}
+div#dos{
+	background-color:#FFEBCD;
+}
+div#tres{
+	background-color: #FFDEAD;
+}
+div#cuatro{
+	background-color: #DEB887;
+}
+.contenedor:hover{
+	height:120px;
+}
+#letrero{
+	position: absolute;
+	margin-top:-110px;
+}
+div#imagen{
+	width:770px;
+	height:430;
+	margin-top:100px;
+	margin-left:20%;
+	background-image: url(../apis/charkekan.jpg);
+}
+div#info{
+	width: 770px;
+	height:430px;
+	background-color:rgba(31,31,31,0.9);
+	-moz-transition:opacity 0.2s;
+	opacity: 0;
+}
+div#imagen:hover div#info{
+	opacity: 1;
+}
+p#letras{
+	border-top: 20px;
+	font-size: 50px;
+	color:white;
+	text-align: center;
+
+}
